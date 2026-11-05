@@ -1,0 +1,12 @@
+{
+  "sochi": {"description": "Черноморский курорт в России: пляжи, горы рядом, без загранпаспорта и визы.", "tags": ["beach", "mountains", "family", "nature"], "visa_required": false, "entry_note": ""},
+  "saint-petersburg": {"description": "Культурная столица: музеи, дворцы, разводные мосты и белые ночи.", "tags": ["city", "culture", "romantic"], "visa_required": false, "entry_note": ""},
+  "kazan": {"description": "Город на Волге: кремль, мечети, татарская кухня; удобен для коротких поездок.", "tags": ["city", "culture", "family"], "visa_required": false, "entry_note": ""},
+  "krasnaya-polyana": {"description": "Горнолыжный курорт рядом с Сочи: трассы, канатные дороги, горный воздух.", "tags": ["mountains", "ski", "nature", "quiet", "family"], "visa_required": false, "entry_note": ""},
+  "anapa": {"description": "Детский курорт на Чёрном море: мелкий песчаный пляж, тёплая вода, аквапарки и санатории.", "tags": ["beach", "family", "nature"], "visa_required": false, "entry_note": ""},
+  "kaliningrad": {"description": "Балтика без визы: песчаные пляжи Зеленоградска и Светлогорска, Куршская коса, европейская архитектура.", "tags": ["beach", "city", "culture", "nature", "romantic"], "visa_required": false, "entry_note": ""},
+  "kislovodsk": {"description": "Курорт Кавказских Минеральных Вод: нарзанные галереи, огромный парк, санатории и горный воздух.", "tags": ["mountains", "nature", "quiet", "family"], "visa_required": false, "entry_note": ""},
+  "karelia": {"description": "Край озёр и лесов: Онего, остров Кижи, водопады и Рускеала, белые ночи летом и северное сияние зимой.", "tags": ["nature", "quiet", "culture", "family"], "visa_required": false, "entry_note": ""},
+  "altai": {"description": "Горный Алтай: Чемал, Катунь и Чуйский тракт, термальные источники, походы и сплавы.", "tags": ["mountains", "nature", "quiet", "family"], "visa_required": false, "entry_note": ""},
+  "baikal": {"description": "Самое глубокое озеро мира: Листвянка, байкальский лёд зимой, кругобайкальские тропы и баня с видом на воду.", "tags": ["nature", "mountains", "quiet", "romantic"], "visa_required": false, "entry_note": ""}
+}

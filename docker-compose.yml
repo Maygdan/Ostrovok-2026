@@ -1,0 +1,42 @@
+services:
+  agent:
+    build:
+      context: ./agent
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8000
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://api.deepseek.com}
+      LLM_MODEL: ${LLM_MODEL:-deepseek-flash}
+      LLM_TIMEOUT_SECONDS: ${LLM_TIMEOUT_SECONDS:-60}
+      AGENT_MAX_STEPS: ${AGENT_MAX_STEPS:-12}
+      DEFAULT_ORIGIN: ${DEFAULT_ORIGIN:-moscow}
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health')"
+      interval: 10s
+      timeout: 3s
+      retries: 5
+  server:
+    build:
+      context: ./server
+    environment:
+      PORT: 3001
+      AGENT_BASE_URL: http://agent:8000
+    ports:
+      - "3001:3001"
+    depends_on:
+      agent:
+        condition: service_healthy
+  client:
+    build:
+      context: ./client
+    depends_on:
+      - server
+    ports:
+      - "5173:80"

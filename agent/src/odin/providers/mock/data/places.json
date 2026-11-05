@@ -1,0 +1,15 @@
+[
+  {"id": "moscow", "name": "Москва", "country": "Россия", "timezone": "Europe/Moscow", "lat": 55.7558, "lon": 37.6173, "airport_code": "SVO", "aliases": ["москв", "moscow"]},
+  {"id": "saint-petersburg", "name": "Санкт-Петербург", "country": "Россия", "timezone": "Europe/Moscow", "lat": 59.9343, "lon": 30.3351, "airport_code": "LED", "aliases": ["петербург", "питер", "спб", "saint-petersburg"]},
+  {"id": "kazan", "name": "Казань", "country": "Россия", "timezone": "Europe/Moscow", "lat": 55.7887, "lon": 49.1221, "airport_code": "KZN", "aliases": ["казан", "kazan"]},
+  {"id": "yekaterinburg", "name": "Екатеринбург", "country": "Россия", "timezone": "Asia/Yekaterinburg", "lat": 56.8389, "lon": 60.6057, "airport_code": "SVX", "aliases": ["екатеринбург", "екб", "yekaterinburg"]},
+  {"id": "novosibirsk", "name": "Новосибирск", "country": "Россия", "timezone": "Asia/Novosibirsk", "lat": 55.0084, "lon": 82.9357, "airport_code": "OVB", "aliases": ["новосибирск", "novosibirsk"]},
+  {"id": "sochi", "name": "Сочи", "country": "Россия", "timezone": "Europe/Moscow", "lat": 43.5855, "lon": 39.7231, "airport_code": "AER", "aliases": ["сочи", "адлер", "sochi"]},
+  {"id": "krasnaya-polyana", "name": "Красная Поляна", "country": "Россия", "timezone": "Europe/Moscow", "lat": 43.6803, "lon": 40.2047, "airport_code": "AER", "aliases": ["красная поляна", "красной поляне", "красную поляну", "розу хутор", "розе хутор"]},
+  {"id": "anapa", "name": "Анапа", "country": "Россия", "timezone": "Europe/Moscow", "lat": 44.8947, "lon": 37.3167, "airport_code": "AAQ", "aliases": ["анап", "витязев", "джемете", "anapa"]},
+  {"id": "kaliningrad", "name": "Калининград", "country": "Россия", "timezone": "Europe/Kaliningrad", "lat": 54.7104, "lon": 20.4522, "airport_code": "KGD", "aliases": ["калининград", "зеленоградск", "светлогорск", "куршская коса", "kaliningrad"]},
+  {"id": "kislovodsk", "name": "Кисловодск", "country": "Россия", "timezone": "Europe/Moscow", "lat": 43.9133, "lon": 42.7189, "airport_code": "MRV", "aliases": ["кисловодск", "минеральные воды", "кавказские воды", "kislovodsk"]},
+  {"id": "karelia", "name": "Карелия", "country": "Россия", "timezone": "Europe/Moscow", "lat": 61.7849, "lon": 34.3469, "airport_code": "PES", "aliases": ["карели", "петрозаводск", "кижи", "онего", "karelia"]},
+  {"id": "altai", "name": "Алтай", "country": "Россия", "timezone": "Asia/Barnaul", "lat": 51.9581, "lon": 85.9603, "airport_code": "RGK", "aliases": ["алтай", "горно-алтайск", "белокурих", "чемал", "altai"]},
+  {"id": "baikal", "name": "Байкал", "country": "Россия", "timezone": "Asia/Irkutsk", "lat": 52.28, "lon": 104.28, "airport_code": "IKT", "aliases": ["байкал", "иркутск", "листвянк", "baikal"]}
+]

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>О!дин запрос — ИИ-агент для путешествий</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand__mark">О!</span>дин запрос
+      <small class="brand__tagline">агент для путешествий</small>
+    </div>
+    <div class="topbar__actions">
+      <span id="mode" class="badge" hidden></span>
+      <button id="reset" class="btn btn--ghost" type="button">Новый диалог</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="chat" aria-label="Диалог с агентом">
+      <div id="messages" class="messages" aria-live="polite"></div>
+      <div id="suggestions" class="suggestions" aria-label="Примеры запросов"></div>
+      <form id="composer" class="composer">
+        <textarea id="input" rows="2" maxlength="4000" required
+                  placeholder="Опишите поездку своими словами…"
+                  aria-label="Сообщение агенту"></textarea>
+        <button id="send" class="btn" type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <aside class="panel" aria-label="Поездка">
+      <section id="intro" class="card">
+        <h2>Как это работает</h2>
+        <ol class="steps">
+          <li><b>Одно сообщение.</b> Напишите, чего хотите, как другу: куда, когда, с кем и за какие деньги.</li>
+          <li><b>Понимание.</b> Агент вытащит явные и скрытые требования и спросит только необходимое.</li>
+          <li><b>Выбор с объяснением.</b> Направления, отели, дорога и трансферы сравниваются не только по цене: почему подходит, чем пожертвовали, какие риски.</li>
+          <li><b>Один план.</b> Стыковки прилёта, заселения и трансфера проверяются; условия меняются — план пересобирается, а не ищется заново.</li>
+          <li><b>Корзина и оплата</b> — имитация, деньги не списываются.</li>
+        </ol>
+      </section>
+      <section id="understanding" class="card"></section>
+      <section id="plan" class="card"></section>
+      <section id="checkout" class="card"></section>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    Рейсы, отели и цены — синтетические данные для демонстрации; оплата — имитация.
+  </footer>
+
+  <noscript>Для работы чата нужен включённый JavaScript.</noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
