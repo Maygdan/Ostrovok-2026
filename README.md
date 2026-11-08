@@ -27,7 +27,7 @@ Copy-Item agent\.env.example agent\.env
 ```powershell
 cd agent
 uv sync
-uv run odin
+uv run  odin
 ```
 
 ```powershell
